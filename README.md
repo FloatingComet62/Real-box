@@ -1,10 +1,10 @@
 # Real Box
-1.0 Pre-Release : introducing:
+**1.0 Pre-Release : introducing:
                             -pause button
                             -resume button
                             -reply system
                             
-1.0 Full-Release : introducing:
+**1.0 Full-Release : introducing:
                             -menu
                    bugs fixed:
                             -reply respawning fixed(one of them not spawning in the field)
