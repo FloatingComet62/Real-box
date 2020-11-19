@@ -7,7 +7,7 @@ var sensivity = 100;
 var Esensivity = 100;
 var vis = 0;
 var state = -1;
-var health = 1;
+var health = 2500;
 
 var engine, world;
 var box1 , box2;
@@ -50,7 +50,7 @@ function setup()
     wincounter=1;
     num_deaths = 0;
     num_wins = 0;
-    win_rate = (num_wins/num_deaths)*100;
+    win_rate = (num_wins/num_deaths+num_wins)*100;
 
     healthBarYour = new ground( 200 , 20 , healthYour/10 , 10 , true );
     healthBarEnemy = new ground( 1150 , 20 , healthEnemy/10 , 10 , true );
