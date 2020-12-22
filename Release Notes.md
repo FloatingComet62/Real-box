@@ -13,5 +13,5 @@
 
 *bugs fixed:*                
 ∙ replay respawning fixed(one of them not spawning in the field)                
-∙ resume button fixed(not resuming one of them)                
+∙ resume button fixemdd(not resuming one of them)                
 ∙ startup fixed(when the game was loaded, you see nothing for some reason)                
