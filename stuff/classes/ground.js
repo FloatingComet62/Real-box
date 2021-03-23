@@ -1,7 +1,8 @@
 class ground
 {
+
     constructor( x , y , width , height , s )
-{
+    {
         var option=
         {
             isStatic : s ,
@@ -12,6 +13,7 @@ class ground
         this.height = height;
         World.add( world , this.ground );
     }
+
     display( color )
     {
         var pos = this.ground.position
@@ -19,4 +21,5 @@ class ground
         fill( color );
         rect( pos.x , pos.y , this.width , this.height );
     }
+    
 }

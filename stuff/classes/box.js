@@ -1,6 +1,10 @@
-class Box {
-  constructor( x , y , width , height , r , f , fA , d , a , s ) {
-    var options = {
+class Box 
+{
+
+  constructor( x , y , width , height , r , f , fA , d , a , s ) 
+  {
+    var options = 
+      {
         'restitution': r ,
         'friction': f ,
         'frictionAir': fA ,
@@ -14,7 +18,9 @@ class Box {
     
     World.add( world , this.body );
   }
-  display( color ){
+
+  display( color )
+  {
     var pos = this.body.position;
     var angle = this.body.angle;
     push();
@@ -25,4 +31,5 @@ class Box {
     rect( 0 , 0 , this.width , this.height );
     pop();
   }
+
 }

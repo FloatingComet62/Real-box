@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 
   <html>
+    <title>
+      Real Box
+    </title>
 
     <head>
 
@@ -11,9 +14,29 @@
 
       <script src="stuff/classes/box.js"></script>
       <script src="stuff/classes/ground.js"></script>
+      <script src="stuff/classes/elements.js"></script>
+
+      <script src="stuff/classes/Multiplayer/Game.js"></script>
+      <script src="stuff/classes/Multiplayer/Player.js"></script>
+      <script src="stuff/classes/Multiplayer/Form.js"></script>
 
       <script src="function.js"></script>
 
+      <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.0.2/firebase-database.js"></script>
+
+      <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyDgCqGkBJNf9gxx3P0J9DuDF9rTomX8EtQ",
+          authDomain: "real-box-75a41.firebaseapp.com",
+          databaseURL: "https://real-box-75a41.firebaseio.com",
+          projectId: "real-box-75a41",
+          storageBucket: "real-box-75a41.appspot.com",
+          messagingSenderId: "622411288186",
+          appId: "1:622411288186:web:d67fa2d2d75e1e4f39f5c3"
+        };
+        firebase.initializeApp(firebaseConfig);
+      </script>
 
       <link rel="stylesheet" type="text/css" href="stuff/style.css">
       <meta charset="utf-8">
