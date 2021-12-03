@@ -13,7 +13,7 @@ var sensivity = 100;
 var Esensivity = 100;
 var vis = 0;
 var state = -1;
-var health = 1;
+var health = 1000;
 var engine, world;
 var Ebox , box11 , box22;
 var menu1 , menu2;
